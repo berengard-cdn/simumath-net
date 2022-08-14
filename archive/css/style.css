@@ -1,0 +1,156 @@
+body {
+	padding:0;
+	margin:0;
+}
+
+#mainWarapper {
+	width:100%;
+	height:100%;
+}
+
+#leftSide, #rightSide {
+	display:inline-block;
+	float:left;
+	height:100%;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+#inputTab, #resultsTab {
+	margin:5px;
+	position:relative;
+}
+
+#resultsTab {
+	
+}
+
+h3, h4 {
+	text-align:center;
+}
+
+.dataSection {
+	display:none;
+}
+
+table {
+	margin:0px 5px;
+	border-collapse:collapse;
+}
+
+td, th {
+	border: 1px solid black;
+	text-align:center;
+	padding:0px 2px;
+}
+
+th {
+	color:#9A1B1E;
+}
+
+td {
+	font-weight:normal;
+}
+
+#M_slider {
+	display:inline-block;
+}
+
+#M_field {
+	color:black;
+}
+
+div.elementList ul {
+	max-width:350px;
+}
+
+.ttIcon {
+	width:16px;
+	height:16px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.ttWindow {
+	font-size:14px;
+	font-weight:bold;
+}
+
+#runButtonWrapper {
+	background: white;
+	-moz-border-radius: 10px 0px 10px 0px;
+    -webkit-border-radius: 10px 0px 10px 0px;
+    -khtml-border-radius: 10px 0px 10px 0px;
+    border-radius: 10px 0px 10px 0px;
+	padding:10px;
+	width:128px;
+	position:absolute;
+	bottom:-16px;
+	right:-6px;
+}
+
+#runButton {
+	
+}
+
+.elementList, .elementList ul {
+	display:inline-block;
+}
+
+.elementList li {
+	display:inline-block;
+	list-style:none;
+	max-width:100px;
+	margin:0px 3px;
+	padding:0px 5px;
+	cursor:move;
+}
+
+.itemAddButton, .listClearButton , .toolbarButton{
+	width:20px;
+	height:20px;
+}
+
+.sortingPlaceholder {
+	height:18px;
+	width:18px;
+}
+
+.elemListDelButton {
+	width:10px;
+	height:10px;
+	cursor:pointer;
+}
+
+div.chartIcon {
+	background: url('../images/chartIcon.png') top left no-repeat;
+	width:16px;
+	height:16px;
+	display:inline-block;
+}
+
+a.graphButton {
+	width:70px;
+	height:32px;
+	position:absolute;
+	right:10px;
+}
+
+.jqplot-point-label, .jqplot-highlighter-tooltip {
+	border:1px solid #aaaaaa;
+	padding:1px 1px;
+	background-color:white;
+	color:black;
+}
+
+#toolsList {
+	padding:0;
+	margin:0;
+}
+#toolsList li {
+	display:inline-block;
+}
+
+a#jumpToTopButton {
+	display:inline-block;
+}

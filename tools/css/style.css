@@ -1,0 +1,195 @@
+#mainWarapper {
+	width:100%;
+	height:100%;
+}
+
+#leftSide, #rightSide {
+	display:inline-block;
+	float:left;
+	height:100%;
+	overflow:hidden;
+}
+
+#inputTab, #resultsTab {
+	margin:5px;
+	position:relative;
+}
+
+#resultsTab {
+	
+}
+
+#mainWarapper h3, #mainWarapper h4 {
+	text-align:center;
+}
+
+.dataSection {
+	display:none;
+}
+
+#mainWarapper table {
+	margin:0px 5px;
+	border-collapse:collapse;
+}
+
+#mainWarapper td, #mainWarapper th {
+	border: 1px solid black;
+	text-align:center;
+	padding:0px 2px;
+}
+
+table.noBorder, table.noBorder td, table.noBorder th {
+	border: 0px !important;
+}
+
+#mainWarapper th {
+	color:#9A1B1E;
+}
+
+#mainWarapper td {
+	font-weight:normal;
+}
+
+#M_slider {
+	display:inline-block;
+}
+
+#M_field {
+	color:black;
+}
+
+#leftSide #inputTab img {
+	/*border: 1px solid #9a1b1e;
+	box-shadow: 0px 0px 6px gray;*/
+}
+
+div.resultsDialog {
+	position:relative;   
+    overflow:visible;
+}
+
+div.elementList ul {
+	max-width:350px;
+}
+
+.ttIcon {
+	width:16px;
+	height:16px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.ttWindow {
+	font-size:14px;
+	font-weight:bold;
+}
+
+#runButtonWrapper {
+	background: white;
+	-moz-border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    -khtml-border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0px 0px 10px;
+	box-shadow: -5px 5px 4px #888888;
+	padding:10px;
+	width:128px;
+	height:34px;
+	position:absolute;
+	bottom:-16px;
+	right:-6px;
+}
+
+#runButton {
+	
+}
+
+.elementList, .elementList ul {
+	display:inline-block;
+}
+
+.elementList li {
+	display:inline-block;
+	list-style:none;
+	max-width:100px;
+	margin:0px 3px;
+	padding:0px 5px;
+	cursor:move;
+}
+
+.itemAddButton, .listClearButton , .toolbarButton{
+	width:20px;
+	height:20px;
+}
+
+.sortingPlaceholder {
+	height:18px;
+	width:18px;
+}
+
+.elemListDelButton {
+	width:10px;
+	height:10px;
+	cursor:pointer;
+}
+
+ul.resultsToolbar {
+	list-style:outside none none;
+	margin: 0 0 10px 0;
+	padding:0px;
+}
+
+ul.resultsToolbar li {
+	display:inline-block;
+	padding-right:5px;
+}
+
+div.chartIcon {
+	background: url('../images/chartIcon.png') top left no-repeat;
+	width:16px;
+	height:16px;
+	display:inline-block;
+}
+
+a.graphButton {
+	width:70px;
+	height:32px;
+	position:absolute;
+	right:10px;
+}
+
+.jqplot-point-label, .jqplot-highlighter-tooltip {
+	border:1px solid #aaaaaa;
+	padding:1px 1px;
+	background-color:white;
+	color:black;
+}
+
+#toolsList {
+	padding:0;
+	margin:0;
+}
+#toolsList li {
+	display:inline-block;
+}
+
+a#jumpToTopButton {
+	display:inline-block;
+}
+
+table.hydra_shortInputs input, table.hystr_shortInputs input, table.drive_shortInputs input {
+	width: 55px;
+}
+
+table.hydra_table, table.hystr_table, table.drive_table {
+	margin-top:15px !important;
+}
+
+table.hydra_table td, table.hystr_table td, table.drive_table td {
+	padding: 3px 2px 3px 2px !important;
+}
+
+@media print {
+	.hidden-print, .ui-tooltip {
+		display: none !important;
+	}
+}
