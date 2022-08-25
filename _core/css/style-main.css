@@ -31,13 +31,13 @@ div.main-content {
 }
 
 div.main-content a {
-	text-decoration: none;
-	color: #874819;
-	font-weight: bold;
+	text-decoration: none !important;
+	color: #874819 !important;
+	font-weight: bold !important;
 }
 
 div.main-content a:hover {
-	color: #995d2f;
+	color: #995d2f !important;
 }
 
 h1, h2, h3 {
